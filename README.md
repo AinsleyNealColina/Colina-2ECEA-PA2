@@ -71,3 +71,6 @@ print("X_normalized.npy has been saved.")
 ## Problem 2: Elements divisible by 3
 
 Construct a 10×10 ndarray containing the squares of the first 100 positive integers:
+
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/cd0b07ef-03b0-47ec-84c2-22132caa8588" />
+
