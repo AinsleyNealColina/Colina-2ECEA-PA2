@@ -41,7 +41,9 @@ print("Original Array X:\n", X)
 `
 mean_X = X.mean()
 std_X = X.std()
+`
 
+`
 print("Mean of X:", mean_X)
 print("Standard Deviation of X:", std_X)
 `
