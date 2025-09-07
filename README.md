@@ -19,7 +19,9 @@ So we are tasked to:
 4. Save the normalized array as X_normalized.npy
 
 Steps:
+
 1.import numpy as np it is for numerical operations
+
 `
 import numpy as np
 `
