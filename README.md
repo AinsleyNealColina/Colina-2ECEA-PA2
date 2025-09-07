@@ -59,3 +59,11 @@ print("Normalized Array X_normalized:\n", X_normalized)
 `
 
 5.Save the normalized array into a .npy file
+
+`
+np.save('X_normalized.npy', X_normalized)
+`
+
+`
+print("X_normalized.npy has been saved.")
+`
