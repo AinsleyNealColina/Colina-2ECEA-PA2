@@ -1,6 +1,4 @@
-# Colina-2ECEA-PA2
-
-# Experiment 2 Numerical Python
+# Colina-2ECEA-PA2(Experiment2 Numerical Python)
 
 ## Objectives
 1. To identify the codes and functions incorporated in the Numpy library 
