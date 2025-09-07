@@ -14,4 +14,16 @@ mean and scaling means dividing with its standard deviation.It can be expressed 
 
 So we are tasked to:
 1. Create a random 5 x 5 ndarray and store it to variable X
-2. Obtain its mean and standard deviation
+2. Obtain its mean and standard deviation using .mean() & .std()
+3. Normalize the array using the formula above.
+4. Save the normalized array as X_normalized.npy
+
+Steps:
+1.import numpy as np it is for numerical operations
+`import numpy as np
+`
+
+2.create a random 5 x 5 by using np.random.rand it is a function from the NumPy library used to generate an array of random values
+3.use the .mean() and .std() before the period put x to compute the mean and standard deviation of the array
+4.To normalize the array we must declare  a variable then put the equation,then call the variable
+5.Save the normalized array into a .npy file
