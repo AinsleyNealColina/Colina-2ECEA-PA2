@@ -83,7 +83,7 @@ So we are tasked to:
 
 Steps:
 
-1.We use np.arange(1, 101) to create an array of integers starting at 1 and ending at 100 and A.reshape(10,10) so it has 10 rows and columns.
+1.We use np.arange(1, 101)**@ to create an array of integers starting at 1 and ending at 100 and squaring it, then A.reshape(10,10) so it has 10 rows and columns.
 
 `
 import numpy as np
@@ -95,4 +95,4 @@ A = A.reshape(10, 10)
 print("Array A (Squares of the first 100 positive integers):\n", A)
 `
 
-2.
+
