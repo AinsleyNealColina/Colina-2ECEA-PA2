@@ -78,12 +78,12 @@ So we are tasked to:
 1.Generate numbers from 1 to 100
 2.Square them to form the array.
 3.Reshape into a 10×10 matrix
-4.Use Boolean indexing 
+4.Use Boolean indexing to obtain all the elements that are divisible by 3
 5.Save the result as div_by_3.npy.
 
 Steps:
 
-1.We use np.arange(1, 101)**@ to create an array of integers starting at 1 and ending at 100 and squaring it, then A.reshape(10,10) so it has 10 rows and columns.
+1.We use np.arange(1, 101)**2 to create an array of integers starting at 1 and ending at 100 and squaring it, then A.reshape(10,10) so it has 10 rows and columns.
 
 `
 import numpy as np
@@ -95,4 +95,16 @@ A = A.reshape(10, 10)
 print("Array A (Squares of the first 100 positive integers):\n", A)
 `
 
+2.We apply the condition A % 3 == 0 which returns a Boolean mask, and use it to extract values divisible by 3.
 
+`
+div_by_3 = A[A % 3 == 0]
+print("Elements of A divisible by 3:\n", div_by_3)
+`
+
+3.Finally, we save the filtered elements into a .npy file using np.save.
+
+`
+np.save('div_by_3.npy', div_by_3)
+print("div_by_3.npy has been saved.")
+`
