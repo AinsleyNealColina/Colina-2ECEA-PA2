@@ -49,4 +49,13 @@ print("Standard Deviation of X:", std_X)
 `
 
 4.To normalize the array we must declare  a variable then put the equation,then call the variable
+
+`
+X_normalized = (X - mean_X) / std_X
+`
+
+`
+print("Normalized Array X_normalized:\n", X_normalized)
+`
+
 5.Save the normalized array into a .npy file
