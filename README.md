@@ -20,7 +20,8 @@ So we are tasked to:
 
 Steps:
 1.import numpy as np it is for numerical operations
-`import numpy as np
+`
+import numpy as np
 `
 
 2.create a random 5 x 5 by using np.random.rand it is a function from the NumPy library used to generate an array of random values
