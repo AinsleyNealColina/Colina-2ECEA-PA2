@@ -93,6 +93,6 @@ import numpy as np
 A = np.arange(1, 101) ** 2
 A = A.reshape(10, 10)
 print("Array A (Squares of the first 100 positive integers):\n", A)
+`
 
 2.
-`
