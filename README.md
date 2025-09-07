@@ -11,3 +11,7 @@ data analytics. This involves centering and scaling process. Centering means sub
 mean and scaling means dividing with its standard deviation.It can be expressed as:
 
 <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/fb8cbe96-3d00-410b-83ec-3a3f428d9f65" />
+
+So we are tasked to:
+1. Create a random 5 x 5 ndarray and store it to variable X
+2. Obtain its mean and standard deviation
