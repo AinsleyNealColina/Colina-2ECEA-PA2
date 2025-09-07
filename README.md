@@ -29,6 +29,9 @@ import numpy as np
 2.create a random 5 x 5 by using np.random.rand it is a function from the NumPy library used to generate an array of random values
 `
 X = np.random.rand(5, 5)
+`
+
+`
 print("Original Array X:\n", X)
 `
 
