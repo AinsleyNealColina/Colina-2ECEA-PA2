@@ -74,3 +74,25 @@ Construct a 10×10 ndarray containing the squares of the first 100 positive inte
 
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/cd0b07ef-03b0-47ec-84c2-22132caa8588" />
 
+So we are tasked to:
+1.Generate numbers from 1 to 100
+2.Square them to form the array.
+3.Reshape into a 10×10 matrix
+4.Use Boolean indexing 
+5.Save the result as div_by_3.npy.
+
+Steps:
+
+1.We use np.arange(1, 101) to create an array of integers starting at 1 and ending at 100 and A.reshape(10,10) so it has 10 rows and columns.
+
+`
+import numpy as np
+`
+
+`
+A = np.arange(1, 101) ** 2
+A = A.reshape(10, 10)
+print("Array A (Squares of the first 100 positive integers):\n", A)
+
+2.
+`
