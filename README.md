@@ -5,4 +5,7 @@
 2. To be able to apply and use the different codes and functions in creating a Python program using a 
 Numpy library 
 
-## Problem 1
+## Problem 1:Normalization
+Normalization is one of the most basic preprocessing techniques in 
+data analytics. This involves centering and scaling process. Centering means subtracting the data from the 
+mean and scaling means dividing with its standard deviation.
