@@ -75,10 +75,15 @@ Construct a 10×10 ndarray containing the squares of the first 100 positive inte
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/cd0b07ef-03b0-47ec-84c2-22132caa8588" />
 
 So we are tasked to:
+
 1.Generate numbers from 1 to 100
+
 2.Square them to form the array.
+
 3.Reshape into a 10×10 matrix
+
 4.Use Boolean indexing to obtain all the elements that are divisible by 3
+
 5.Save the result as div_by_3.npy.
 
 Steps:
