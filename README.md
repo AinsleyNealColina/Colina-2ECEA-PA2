@@ -66,7 +66,10 @@ print("Normalized Array X_normalized:\n", X_normalized)
 5.Save the normalized array into a .npy file
 
 ```python
+#Saves the normalized X
 np.save('X_normalized.npy', X_normalized)
+
+#Displays if the Normalized X has been saved
 print("X_normalized.npy has been saved.")
 ```
 
@@ -92,26 +95,33 @@ Steps:
 
 1.We use np.arange(1, 101)**2 to create an array of integers starting at 1 and ending at 100 and squaring it, then A.reshape(10,10) so it has 10 rows and columns.
 
-`
-import numpy as np
-`
-
-`
+```python
+# Create a 1D array of squares of the first 100 positive integers
 A = np.arange(1, 101) ** 2
+
+#Reshapes the 1D array to a 10x10 2D array for better readability
 A = A.reshape(10, 10)
+
+# Print the 10x10 array of squared values
 print("Array A (Squares of the first 100 positive integers):\n", A)
-`
+```
 
 2.We apply the condition A % 3 == 0 which returns a Boolean mask, and use it to extract values divisible by 3.
 
-`
+```python
+# Extract elements from A that are divisible by 3 using boolean indexing(the %3 == 0,checks if it is divisible by 3 with no remainder)
 div_by_3 = A[A % 3 == 0]
+
+# Print the filtered elements that are divisible by 3
 print("Elements of A divisible by 3:\n", div_by_3)
-`
+```
 
 3.Finally, we save the filtered elements into a .npy file using np.save.
 
-`
+```python
+# Save the filtered array to a .npy file for later use or sharing
 np.save('div_by_3.npy', div_by_3)
+
+# Confirm that the file has been successfully saved
 print("div_by_3.npy has been saved.")
-`
+```
