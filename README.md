@@ -23,29 +23,43 @@ Steps:
 1.import numpy as np it is for numerical operations
 
 ```python
+# Import the NumPy library for numerical operations
 import numpy as np
 ```
 
 2.create a random 5 x 5 by using np.random.rand it is a function from the NumPy library used to generate an array of random values
 
 ```python
+# Generate a 5x5 array of random floats between 0 and 1
 X = np.random.rand(5, 5)
+
+#Prints the original array and inside it is the value of X from earlier
 print("Original Array X:\n", X)
 ```
 
 3.use the .mean() and .std() before the period put x to compute the mean and standard deviation of the array
 
 ```python
+#Gets the mean of X with the use of function .mean()
 mean_X = X.mean()
+
+#Gets the std of X with the use of function .std()
 std_X = X.std()
+
+#Displays the mean of X
 print("Mean of X:", mean_X)
+
+#Displays the std of X
 print("Standard Deviation of X:", std_X)
 ```
 
 4.To normalize the array we must declare  a variable then put the equation,then call the variable
 
 ```python
+#Formula for Normalization
 X_normalized = (X - mean_X) / std_X
+
+#Displays the Normalized array inside it is the normalized X
 print("Normalized Array X_normalized:\n", X_normalized)
 ```
 
